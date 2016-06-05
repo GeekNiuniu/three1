@@ -3,7 +3,7 @@ function calculate_median(arr) {
  var b=new Array();
  var c=new Array();
  for(var i=0;i<arr.length/2;i++){
- 	b[i]=arr[2*i+1];console.log(b[i]);
+ 	b[i]=arr[2*i+1];
 }
  c=b.sort(function(a,b){
 	return a-b
@@ -11,7 +11,7 @@ function calculate_median(arr) {
 
 
 
-var len=Math.ceil(c.length/2)+1;console.log(len);
+var len=Math.ceil(c.length/2)+1;
 (function()
 {
 	if(len%2==0)
